@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:sample_l10n_key_preview/common/localized_text_group.dart';
+import 'package:gap/gap.dart';
 
 class SampleBScreen extends StatelessWidget {
   const SampleBScreen({super.key});
@@ -9,9 +9,23 @@ class SampleBScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
 
+    const textStyle = TextStyle(fontSize: 24);
+    const gap = Gap(16);
+
     return Center(
-      child: LocalizedTextGroup(
-        texts: [l10n.goodMorning, l10n.haveANiceDay, l10n.seeYouLater],
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(l10n.goodMorning, style: textStyle),
+          gap,
+          Text(l10n.haveANiceDay, style: textStyle),
+          gap,
+          Text(l10n.seeYouLater, style: textStyle),
+          gap,
+          Text(l10n.goodNight, style: textStyle),
+          gap,
+          Text(l10n.imSorry, style: textStyle),
+        ],
       ),
     );
   }
