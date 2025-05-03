@@ -42,15 +42,15 @@ Text(l10n.thankYou) // ありがとう
      build_runner: ^2.4.0
    ```
 
-2. **ARB ファイルの配置**:
+2. **ARB ファイルの作成**:
 
-   - `lib/l10n/app_ja.arb` に日本語の翻訳ファイルを配置します
-   - 標準的な Flutter の国際化設定に従ってください
+   - `lib/l10n/app_en.arb` と `lib/l10n/app_ja.arb` を作成し、それぞれのファイルに翻訳キーを追加してください。その後、使用するファイルで Text(l10n.hello) のように使用してください。
+   - その他、標準的な Flutter の国際化設定に従ってください。
 
 3. **ビルドの実行**:
 
    ```bash
-   flutter pub run build_runner build
+   flutter pub run build_runner build --delete-conflicting-outputs
    ```
 
 ## 開発者向け情報
