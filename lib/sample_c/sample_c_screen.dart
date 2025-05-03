@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:gap/gap.dart'; // Gapパッケージをインポート
+import 'package:gap/gap.dart';
 
 class SampleCScreen extends StatelessWidget {
   const SampleCScreen({super.key});
@@ -9,7 +9,6 @@ class SampleCScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
 
-    // テキストスタイルとGapを変数として定義
     const textStyle = TextStyle(fontSize: 24);
     const gap = Gap(16);
 
