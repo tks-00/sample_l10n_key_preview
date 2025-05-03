@@ -1,0 +1,21 @@
+{
+  "hello": "Hello",
+  "congratulations": "Congratulations",
+  "keepGoing": "Keep going",
+  
+  "goodMorning": "Good morning",
+  "haveANiceDay": "Have a nice day",
+  "seeYouLater": "See you later",
+  
+  "goodNight": "Good night",
+  "goodWork": "Good work",
+  "imHome": "I'm home",
+  
+  "thankYou": "Thank you",
+  "imSorry": "I'm sorry",
+  "please": "Please",
+  
+  "goodbye": "Goodbye",
+  "seeYou": "See you",
+  "bye": "Bye"
+} 

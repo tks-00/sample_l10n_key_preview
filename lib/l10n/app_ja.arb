@@ -1,0 +1,21 @@
+{
+  "hello": "こんにちは",
+  "congratulations": "おめでとう",
+  "keepGoing": "がんばって",
+  
+  "goodMorning": "おはよう",
+  "haveANiceDay": "いってらっしゃい",
+  "seeYouLater": "いってきます",
+  
+  "goodNight": "おやすみ",
+  "goodWork": "おつかれさま",
+  "imHome": "ただいま",
+  
+  "thankYou": "ありがとう",
+  "imSorry": "すみません",
+  "please": "お願いします",
+  
+  "goodbye": "さようなら",
+  "seeYou": "またね",
+  "bye": "バイバイ"
+} 
